@@ -4,7 +4,6 @@ namespace Kastana\KsLaravelUtility;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Kastana\KsLaravelUtility\Commands\KsLaravelUtilityCommand;
 
 class KsLaravelUtilityServiceProvider extends PackageServiceProvider
 {
@@ -17,9 +16,6 @@ class KsLaravelUtilityServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('ks-laravel-utility')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_ks-laravel-utility_table')
-            ->hasCommand(KsLaravelUtilityCommand::class);
+            ->hasConfigFile();
     }
 }
