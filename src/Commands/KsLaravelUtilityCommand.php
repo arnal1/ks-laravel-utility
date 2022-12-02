@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Kastana\KsLaravelUtility\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class KsLaravelUtilityCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'ks-laravel-utility';
 
     public $description = 'My command';
 
