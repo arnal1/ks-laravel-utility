@@ -16,6 +16,6 @@ class KsLaravelUtilityServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('ks-laravel-utility')
-            ->hasConfigFile();
+            ->hasConfigFile(['ks-permission']);
     }
 }
