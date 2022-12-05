@@ -27,8 +27,7 @@
         "orchestra/testbench": "^7.0",
         "pestphp/pest": "^1.21",
         "pestphp/pest-plugin-laravel": "^1.1",
-        "phpunit/phpunit": "^9.5",
-        "sven/artisan-view": "^3.5"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
